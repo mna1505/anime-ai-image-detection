@@ -1,24 +1,45 @@
-# 🎨 Anime AI Detection
-### Can AI draw anime? Can AI detect AI?
+# Anime AI Detection
 
-> **Deteksi Ilustrasi Anime Hasil Generative AI dan Karya Manusia**  
-> Studi Perbandingan Model CNN dan Vision Transformer, Uji Generalisasi Lintas-Dataset, serta Strategi Latihan Multi-Level Progresif.
+### Can AI tell the difference?
+
+Research project for detecting **AI-generated anime illustrations** and
+**human-created artwork** using deep learning.
 
 ---
 
-## 🌸 About The Project
+## About
 
-Generative AI telah membuat proses pembuatan ilustrasi anime menjadi semakin mudah.
+Generative AI has made anime illustration generation increasingly accessible,
+making the visual distinction between human-made and AI-generated artwork
+more difficult.
 
-Model seperti **Stable Diffusion, SDXL, dan FLUX** dapat menghasilkan ilustrasi dalam waktu singkat dengan kualitas yang semakin sulit dibedakan dari karya manusia.
+This research investigates how well different deep learning architectures
+can distinguish between the two classes, especially when the model encounters
+data from sources that were not used during training.
 
-Hal tersebut menimbulkan sebuah pertanyaan:
+The study compares four architectures:
 
-> **Jika AI dapat membuat ilustrasi anime yang terlihat seperti karya manusia, apakah AI juga dapat digunakan untuk membedakannya?**
+- **MobileNetV3-Large**
+- **ResNet50**
+- **EfficientNetV2-S**
+- **ViT-B/16**
 
-Project ini mengembangkan dan mengevaluasi sistem klasifikasi citra untuk membedakan:
+The experiments evaluate not only classification performance, but also
+generalization and inference efficiency.
+
+---
+
+## Research Focus
+
+The experiments are organized into five training stages:
 
 ```text
-🧑‍🎨 Human-Created Artwork
-          vs.
-🤖 AI-Generated Artwork
+Baseline
+   ↓
+Level 1 — Robustness Augmentation
+   ↓
+Level 2 — Training Regularization
+   ↓
+Level 3 — Discriminative Learning Rates
+   ↓
+Level 4 — Sharpness-Aware Minimization (SAM)
