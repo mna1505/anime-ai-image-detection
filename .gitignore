@@ -1,3 +1,29 @@
+# =========================
+# Project-specific ignores
+# =========================
+
+# VS Code
+.vscode/
+
+# Machine Learning model checkpoints
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Local datasets
+dataset/
+datasets/
+
+# Experiment / tracking files
+wandb/
+mlruns/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
