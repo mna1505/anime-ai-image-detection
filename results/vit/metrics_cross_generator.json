@@ -1,0 +1,27 @@
+{
+    "model": "vit",
+    "condition": "cross_generator",
+    "number_of_images": 1000,
+    "confusion_matrix": [
+        [
+            132,
+            368
+        ],
+        [
+            26,
+            474
+        ]
+    ],
+    "accuracy": 0.606,
+    "precision": 0.5629453681710214,
+    "recall": 0.948,
+    "f1_score": 0.706408345752608,
+    "roc_auc": 0.7914240000000001,
+    "total_inference_time_seconds": 11.58339659999183,
+    "inference_latency_ms_per_image": 11.58339659999183,
+    "throughput_images_per_second": 86.33046372604608,
+    "peak_gpu_vram_mb_inference": 594.1484375,
+    "baseline_ram_mb_inference": 1554.19921875,
+    "peak_ram_mb_inference": 1572.390625,
+    "peak_ram_delta_mb_inference": 18.19140625
+}

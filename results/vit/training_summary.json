@@ -1,0 +1,27 @@
+{
+    "model": "vit",
+    "architecture": "ViT-B/16",
+    "pretrained": true,
+    "input_size": [
+        3,
+        224,
+        224
+    ],
+    "batch_size": 32,
+    "learning_rate": 0.0001,
+    "max_epochs": 20,
+    "epochs_completed": 9,
+    "best_epoch": 4,
+    "best_validation_accuracy": 0.968,
+    "training_time_seconds": 1567.0219822,
+    "training_time_minutes": 26.117033036666665,
+    "average_epoch_time_seconds": 174.11355357777776,
+    "total_parameters": 85800194,
+    "trainable_parameters": 85800194,
+    "model_size_mb": 327.360146522522,
+    "flops": 16866646272.0,
+    "macs": 8433323136.0,
+    "complexity_tool": "fvcore",
+    "peak_gpu_vram_mb_training": 4933.15869140625,
+    "peak_ram_mb_training": 1329.46484375
+}

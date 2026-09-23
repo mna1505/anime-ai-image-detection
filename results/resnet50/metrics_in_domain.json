@@ -1,0 +1,27 @@
+{
+    "model": "resnet50",
+    "condition": "in_domain",
+    "number_of_images": 1000,
+    "confusion_matrix": [
+        [
+            493,
+            7
+        ],
+        [
+            7,
+            493
+        ]
+    ],
+    "accuracy": 0.986,
+    "precision": 0.986,
+    "recall": 0.986,
+    "f1_score": 0.986,
+    "roc_auc": 0.9979859999999999,
+    "total_inference_time_seconds": 3.171439999998256,
+    "inference_latency_ms_per_image": 3.171439999998256,
+    "throughput_images_per_second": 315.3141790481768,
+    "peak_gpu_vram_mb_inference": 435.43017578125,
+    "baseline_ram_mb_inference": 1255.2421875,
+    "peak_ram_mb_inference": 1272.9453125,
+    "peak_ram_delta_mb_inference": 17.703125
+}

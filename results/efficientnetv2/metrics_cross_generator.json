@@ -1,0 +1,27 @@
+{
+    "model": "efficientnetv2",
+    "condition": "cross_generator",
+    "number_of_images": 1000,
+    "confusion_matrix": [
+        [
+            103,
+            397
+        ],
+        [
+            4,
+            496
+        ]
+    ],
+    "accuracy": 0.599,
+    "precision": 0.555431131019037,
+    "recall": 0.992,
+    "f1_score": 0.7121320890165111,
+    "roc_auc": 0.89992,
+    "total_inference_time_seconds": 3.332432199989853,
+    "inference_latency_ms_per_image": 3.332432199989853,
+    "throughput_images_per_second": 300.0811239319572,
+    "peak_gpu_vram_mb_inference": 308.5625,
+    "baseline_ram_mb_inference": 1307.7734375,
+    "peak_ram_mb_inference": 1320.828125,
+    "peak_ram_delta_mb_inference": 13.0546875
+}

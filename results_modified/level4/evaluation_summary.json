@@ -1,0 +1,218 @@
+[
+    {
+        "model": "mobilenetv3",
+        "condition": "in_domain",
+        "number_of_images": 1000,
+        "confusion_matrix": [
+            [
+                489,
+                11
+            ],
+            [
+                27,
+                473
+            ]
+        ],
+        "accuracy": 0.962,
+        "precision": 0.9772727272727273,
+        "recall": 0.946,
+        "f1_score": 0.9613821138211383,
+        "roc_auc": 0.994984,
+        "total_inference_time_seconds": 2.1328369999901042,
+        "inference_latency_ms_per_image": 2.1328369999901042,
+        "throughput_images_per_second": 468.8590829982037,
+        "peak_gpu_vram_mb_inference": 263.21240234375,
+        "baseline_ram_mb_inference": 1160.8203125,
+        "peak_ram_mb_inference": 1220.1875,
+        "peak_ram_delta_mb_inference": 59.3671875
+    },
+    {
+        "model": "mobilenetv3",
+        "condition": "cross_generator",
+        "number_of_images": 1000,
+        "confusion_matrix": [
+            [
+                310,
+                190
+            ],
+            [
+                23,
+                477
+            ]
+        ],
+        "accuracy": 0.787,
+        "precision": 0.7151424287856072,
+        "recall": 0.954,
+        "f1_score": 0.8174807197943444,
+        "roc_auc": 0.923388,
+        "total_inference_time_seconds": 2.345106599997962,
+        "inference_latency_ms_per_image": 2.345106599997962,
+        "throughput_images_per_second": 426.4198480362765,
+        "peak_gpu_vram_mb_inference": 263.21240234375,
+        "baseline_ram_mb_inference": 1219.96484375,
+        "peak_ram_mb_inference": 1237.3046875,
+        "peak_ram_delta_mb_inference": 17.33984375
+    },
+    {
+        "model": "resnet50",
+        "condition": "in_domain",
+        "number_of_images": 1000,
+        "confusion_matrix": [
+            [
+                489,
+                11
+            ],
+            [
+                8,
+                492
+            ]
+        ],
+        "accuracy": 0.981,
+        "precision": 0.9781312127236581,
+        "recall": 0.984,
+        "f1_score": 0.9810568295114656,
+        "roc_auc": 0.9975799999999999,
+        "total_inference_time_seconds": 3.031533600020339,
+        "inference_latency_ms_per_image": 3.031533600020339,
+        "throughput_images_per_second": 329.8660453551598,
+        "peak_gpu_vram_mb_inference": 435.43017578125,
+        "baseline_ram_mb_inference": 1310.81640625,
+        "peak_ram_mb_inference": 1326.9765625,
+        "peak_ram_delta_mb_inference": 16.16015625
+    },
+    {
+        "model": "resnet50",
+        "condition": "cross_generator",
+        "number_of_images": 1000,
+        "confusion_matrix": [
+            [
+                212,
+                288
+            ],
+            [
+                6,
+                494
+            ]
+        ],
+        "accuracy": 0.706,
+        "precision": 0.6317135549872123,
+        "recall": 0.988,
+        "f1_score": 0.7706708268330733,
+        "roc_auc": 0.922212,
+        "total_inference_time_seconds": 3.1924247000351897,
+        "inference_latency_ms_per_image": 3.1924247000351897,
+        "throughput_images_per_second": 313.2415307991374,
+        "peak_gpu_vram_mb_inference": 435.43017578125,
+        "baseline_ram_mb_inference": 1321.33203125,
+        "peak_ram_mb_inference": 1336.33203125,
+        "peak_ram_delta_mb_inference": 15.0
+    },
+    {
+        "model": "efficientnetv2",
+        "condition": "in_domain",
+        "number_of_images": 1000,
+        "confusion_matrix": [
+            [
+                492,
+                8
+            ],
+            [
+                13,
+                487
+            ]
+        ],
+        "accuracy": 0.979,
+        "precision": 0.9838383838383838,
+        "recall": 0.974,
+        "f1_score": 0.978894472361809,
+        "roc_auc": 0.997876,
+        "total_inference_time_seconds": 3.255483600019943,
+        "inference_latency_ms_per_image": 3.255483600019943,
+        "throughput_images_per_second": 307.17402477280916,
+        "peak_gpu_vram_mb_inference": 308.5625,
+        "baseline_ram_mb_inference": 1353.91796875,
+        "peak_ram_mb_inference": 1368.85546875,
+        "peak_ram_delta_mb_inference": 14.9375
+    },
+    {
+        "model": "efficientnetv2",
+        "condition": "cross_generator",
+        "number_of_images": 1000,
+        "confusion_matrix": [
+            [
+                216,
+                284
+            ],
+            [
+                10,
+                490
+            ]
+        ],
+        "accuracy": 0.706,
+        "precision": 0.6330749354005168,
+        "recall": 0.98,
+        "f1_score": 0.7692307692307693,
+        "roc_auc": 0.883464,
+        "total_inference_time_seconds": 3.2668955999761238,
+        "inference_latency_ms_per_image": 3.2668955999761238,
+        "throughput_images_per_second": 306.10099692420795,
+        "peak_gpu_vram_mb_inference": 308.5625,
+        "baseline_ram_mb_inference": 1317.0625,
+        "peak_ram_mb_inference": 1333.0,
+        "peak_ram_delta_mb_inference": 15.9375
+    },
+    {
+        "model": "vit",
+        "condition": "in_domain",
+        "number_of_images": 1000,
+        "confusion_matrix": [
+            [
+                493,
+                7
+            ],
+            [
+                5,
+                495
+            ]
+        ],
+        "accuracy": 0.988,
+        "precision": 0.9860557768924303,
+        "recall": 0.99,
+        "f1_score": 0.9880239520958084,
+        "roc_auc": 0.9988279999999999,
+        "total_inference_time_seconds": 11.45464180001727,
+        "inference_latency_ms_per_image": 11.45464180001727,
+        "throughput_images_per_second": 87.30085300428095,
+        "peak_gpu_vram_mb_inference": 594.1484375,
+        "baseline_ram_mb_inference": 1526.60546875,
+        "peak_ram_mb_inference": 1545.1875,
+        "peak_ram_delta_mb_inference": 18.58203125
+    },
+    {
+        "model": "vit",
+        "condition": "cross_generator",
+        "number_of_images": 1000,
+        "confusion_matrix": [
+            [
+                170,
+                330
+            ],
+            [
+                4,
+                496
+            ]
+        ],
+        "accuracy": 0.666,
+        "precision": 0.6004842615012107,
+        "recall": 0.992,
+        "f1_score": 0.7481146304675717,
+        "roc_auc": 0.823892,
+        "total_inference_time_seconds": 11.656618699998944,
+        "inference_latency_ms_per_image": 11.656618699998944,
+        "throughput_images_per_second": 85.78817114435515,
+        "peak_gpu_vram_mb_inference": 594.1484375,
+        "baseline_ram_mb_inference": 1547.2578125,
+        "peak_ram_mb_inference": 1565.66796875,
+        "peak_ram_delta_mb_inference": 18.41015625
+    }
+]

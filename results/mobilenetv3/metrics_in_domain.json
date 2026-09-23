@@ -1,0 +1,27 @@
+{
+    "model": "mobilenetv3",
+    "condition": "in_domain",
+    "number_of_images": 1000,
+    "confusion_matrix": [
+        [
+            488,
+            12
+        ],
+        [
+            6,
+            494
+        ]
+    ],
+    "accuracy": 0.982,
+    "precision": 0.9762845849802372,
+    "recall": 0.988,
+    "f1_score": 0.9821073558648111,
+    "roc_auc": 0.9974080000000001,
+    "total_inference_time_seconds": 3.7090450999994573,
+    "inference_latency_ms_per_image": 3.7090450999994573,
+    "throughput_images_per_second": 269.6111729674428,
+    "peak_gpu_vram_mb_inference": 263.21240234375,
+    "baseline_ram_mb_inference": 1159.76953125,
+    "peak_ram_mb_inference": 1224.74609375,
+    "peak_ram_delta_mb_inference": 64.9765625
+}

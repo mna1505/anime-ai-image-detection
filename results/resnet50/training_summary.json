@@ -1,0 +1,27 @@
+{
+    "model": "resnet50",
+    "architecture": "ResNet50",
+    "pretrained": true,
+    "input_size": [
+        3,
+        224,
+        224
+    ],
+    "batch_size": 32,
+    "learning_rate": 0.0001,
+    "max_epochs": 20,
+    "epochs_completed": 10,
+    "best_epoch": 5,
+    "best_validation_accuracy": 0.991,
+    "training_time_seconds": 942.9643968,
+    "training_time_minutes": 15.71607328,
+    "average_epoch_time_seconds": 94.29643968,
+    "total_parameters": 23512130,
+    "trainable_parameters": 23512130,
+    "model_size_mb": 89.99586582183838,
+    "flops": 4109468672.0,
+    "macs": 2054734336.0,
+    "complexity_tool": "fvcore",
+    "peak_gpu_vram_mb_training": 2957.2939453125,
+    "peak_ram_mb_training": 1178.4375
+}

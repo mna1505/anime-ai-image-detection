@@ -1,0 +1,27 @@
+{
+    "model": "efficientnetv2",
+    "level": 3,
+    "architecture": "EfficientNetV2-S",
+    "pretrained": true,
+    "input_size": [
+        3,
+        224,
+        224
+    ],
+    "batch_size": 32,
+    "max_epochs": 25,
+    "best_epoch": 16,
+    "best_validation_accuracy": 0.967,
+    "training_time_seconds": 2719.577786199996,
+    "training_time_minutes": 45.326296436666595,
+    "average_epoch_time_seconds": 123.61717209999982,
+    "total_parameters": 20180050,
+    "flops": 2876306176.0,
+    "macs": 1438153088.0,
+    "complexity_tool": "fvcore",
+    "mixup": true,
+    "label_smoothing": 0.1,
+    "model_checkpoint": "D:\\YANG AKAN DI COPAS\\1_DOKUMEN KULIAH\\Semester 5\\Bahan Riset AI\\Anime\\anime-ai-detector\\models_modified\\level3\\efficientnetv2\\best_model.pth",
+    "peak_gpu_vram_mb_training": 4997.1611328125,
+    "peak_ram_mb_training": 574.68359375
+}

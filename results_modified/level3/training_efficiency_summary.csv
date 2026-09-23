@@ -1,0 +1,5 @@
+model,architecture,best_epoch,best_validation_accuracy,training_time_seconds,average_epoch_time_seconds,total_parameters,trainable_parameters,model_size_mb,flops,macs,peak_gpu_vram_mb_training,peak_ram_mb_training
+mobilenetv3,MobileNetV3-Large,22,0.972,2681.401277,107.2560511,4204594,,,224756384,112378192,1460.92627,1705.847656
+resnet50,ResNet50,23,0.978,2664.547207,106.5818883,23512130,,,4109468672,2054734336,2975.294922,764.953125
+efficientnetv2,EfficientNetV2-S,16,0.967,2719.577786,123.6171721,20180050,,,2876306176,1438153088,4997.161133,574.6835938
+vit,ViT-B/16,11,0.988,3004.92785,176.7604618,85800194,,,16866646272,8433323136,4953.687988,797.8203125

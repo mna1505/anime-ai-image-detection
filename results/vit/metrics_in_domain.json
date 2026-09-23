@@ -1,0 +1,27 @@
+{
+    "model": "vit",
+    "condition": "in_domain",
+    "number_of_images": 1000,
+    "confusion_matrix": [
+        [
+            486,
+            14
+        ],
+        [
+            26,
+            474
+        ]
+    ],
+    "accuracy": 0.96,
+    "precision": 0.9713114754098361,
+    "recall": 0.948,
+    "f1_score": 0.9595141700404858,
+    "roc_auc": 0.99558,
+    "total_inference_time_seconds": 11.604041600005075,
+    "inference_latency_ms_per_image": 11.604041600005075,
+    "throughput_images_per_second": 86.17687134106471,
+    "peak_gpu_vram_mb_inference": 594.1484375,
+    "baseline_ram_mb_inference": 1276.09765625,
+    "peak_ram_mb_inference": 1294.8828125,
+    "peak_ram_delta_mb_inference": 18.78515625
+}

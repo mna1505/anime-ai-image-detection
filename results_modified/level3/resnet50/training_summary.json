@@ -1,0 +1,27 @@
+{
+    "model": "resnet50",
+    "level": 3,
+    "architecture": "ResNet50",
+    "pretrained": true,
+    "input_size": [
+        3,
+        224,
+        224
+    ],
+    "batch_size": 32,
+    "max_epochs": 25,
+    "best_epoch": 23,
+    "best_validation_accuracy": 0.978,
+    "training_time_seconds": 2664.547207399999,
+    "training_time_minutes": 44.40912012333332,
+    "average_epoch_time_seconds": 106.58188829599996,
+    "total_parameters": 23512130,
+    "flops": 4109468672.0,
+    "macs": 2054734336.0,
+    "complexity_tool": "fvcore",
+    "mixup": true,
+    "label_smoothing": 0.1,
+    "model_checkpoint": "D:\\YANG AKAN DI COPAS\\1_DOKUMEN KULIAH\\Semester 5\\Bahan Riset AI\\Anime\\anime-ai-detector\\models_modified\\level3\\resnet50\\best_model.pth",
+    "peak_gpu_vram_mb_training": 2975.294921875,
+    "peak_ram_mb_training": 764.953125
+}
